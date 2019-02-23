@@ -28,7 +28,12 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-
+iframe{
+    border: 0;  
+    width:30%; 
+    height:20%; 
+    background-color: #FFF;    
+}
 footer {
     width: 70%;
     position: fixed;
