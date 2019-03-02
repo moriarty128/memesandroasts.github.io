@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html>
+	<link href='https://fonts.googleapis.com/css?family=ZCOOL QingKe HuangYou' rel='stylesheet'>
+	<style>
+		p {
+  		background-color: hsl(0, 0%, 100%);
+ 		padding: 10px 20px;
+		  font-size: 35px;
+		  font-family:'ZCOOL Qingke Huangyou';
+		}
+		body, html {
+		height: 100%;
+ 		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		* {
+  			box-sizing: border-box;
+		}
+		ul{
+			background-color: hsl(0, 0%, 100%);
+ 			padding: 10px 20px;
+		  font-size: 35px;
+		  font-family: 'ZCOOL Qingke Huangyou';
+		}
+		
+		.bg-image {
+  		/* The image used */
+  		background-image: url("/bg.jpg");
+  
+ 		/* Add the blur effect */
+  		filter: blur(8px);
+  		-webkit-filter: blur(8px);
+  
+  		/* Full height */
+  		height: 100%; 
+	
+  
+  		/* Center and scale the image nicely */
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		}
+
+		/* Position text in the middle of the page/image */
+		.bg-text {
+  		background-color: rgb(0,0,0); /* Fallback color */
+  		background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  		color: white;
+  		font-weight: bold;
+  		border: 3px solid #f1f1f1;
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		z-index: 2;
+  		width: 80%;
+  		padding: 20px;
+  		text-align: center;
+		}
+		
+	</style>
 	<head>
 		<title>Official site of our unofficial club</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css/">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
+		<div class="bg-image"></div>
+
+		<div class="bg-text">
+  			<h2>Welcome to</h2>
+  			<h1 style="font-size:50px; font-family: 'Righteous';">The Meme Club</h1>
+  			<p>The Official site</p>
+		</div>
 		<nav>
-    		<ul>
+    		<ul style="font-family: 'ZCOOL Qingke Huangyou';">
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
-				<li><a href="/OC_Memes.html">OC Memes</a></li>
+				<li><a href="/oc_memes.html">OC Memes</a></li>
 				<li><a href="/PewdiepievsTseries.html">Pewdiepie vs Tseries</a></li>
 				<li><a href="/Contact">Contact</a></li>
     		</ul>
 		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Dankboi!</h1>
-				<p>I'm best known as the moderator of <em>some meme and roast club</em>. Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div>
-		</div>
-		<footer>
+
+		<!--<footer>
     		<ul>
         		<li><a href="mailto:memesandroasts@gmail.com">email</a></li>
         		<li><a href="https://github.com/memesandroasts">github.com/memesandroasts</a></li>
 			</ul>
-		</footer>
+		</footer>-->
 	</body>
 </html>
